@@ -17,11 +17,11 @@
     <nav id="main-menu">
         <div class="nav-wrapper">
             <ul class="nav nav-primary">
-                <li><router-link to="/"><i class="li-home" id='icn_home' ></i>Start</router-link></li>
-                <li><router-link to="/aboutus"     id='nav_about'><i class="li-feedback" id='icn_about'></i>About</router-link></li>
-                <li><router-link to="/services"  ><i class="li-laptop" id='icn_service'></i>Services</a></router-link></li>
-                <li><router-link to="/portfolio"><i class="li-imac" id='icn_portfolio'></i>Portfolio</a></router-link></li>
-                <li><router-link to="/contactus"><i class="li-email" id='icn_contact'></i>Contact</a></router-link></li>
+                <li><router-link to="/" class='mobile-nav-toggle-reset'><i class="li-home" id='icn_home' ></i>Start</router-link></li>
+                <li><router-link to="/aboutus" class='mobile-nav-toggle-reset' id='nav_about'><i class="li-feedback" id='icn_about'></i>About</router-link></li>
+                <li><router-link to="/services" class='mobile-nav-toggle-reset'><i class="li-laptop" id='icn_service'></i>Services</router-link></li>
+                <li><router-link to="/portfolio" class='mobile-nav-toggle-reset'><i class="li-imac" id='icn_portfolio'></i>Portfolio</router-link></li>
+                <li><router-link to="/contactus" class='mobile-nav-toggle-reset'><i class="li-email" id='icn_contact'></i>Contact</router-link></li>
             </ul>
         </div>
         <span class="selector"></span>
@@ -54,7 +54,7 @@
                     </div>
                     <div class="module">
                         <span class="text-muted mr-10">Follow Us</span>
-                        <a href="#" class="icon icon-circle icon-hover icon-secondary icon-sm"><i class="ti-facebook"></i></a>
+                        <a href="https://www.facebook.com/jnksolutions" target="_blank" class="icon icon-circle icon-hover icon-secondary icon-sm"><i class="ti-facebook"></i></a>
                         <a href="#" class="icon icon-circle icon-hover icon-secondary icon-sm"><i class="ti-twitter-alt"></i></a>
                         <a href="#" class="icon icon-circle icon-hover icon-secondary icon-sm"><i class="ti-google"></i></a>
                     </div>
@@ -70,21 +70,26 @@
 
 <script>
 export default {
-  name: 'App',
-  mounted: function(){
-      Skill.Basic.init();
-       $('#mobile-nav-toggle').on('click', function () {
-            $(this).toggleClass('open');
-            $body.toggleClass('mobile-nav-open');
-            });
+  name: "App",
+  mounted: function() {
+    Skill.Basic.init();
+    //Code for open and close mobile-nav-toggle
+    $("#mobile-nav-toggle").on("click", function() {
+      $(this).toggleClass("open");
+      $body.toggleClass("mobile-nav-open");
+    });
+    //Reset mobile-nav-toggle while cliking side menu icons
+    $(".mobile-nav-toggle-reset").on("click", function() {
+      $("#mobile-nav-toggle").removeClass("open");
+    });
   }
-}
+};
 </script>
 <style>
-.icnActive{
- color: #F57C00;
- opacity:1;
- font-weight: bold;
+.icnActive {
+  color: #f57c00;
+  opacity: 1;
+  font-weight: bold;
 }
-@import url('https://fonts.googleapis.com/css?family=Exo');
+@import url("https://fonts.googleapis.com/css?family=Exo");
 </style>

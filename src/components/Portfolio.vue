@@ -6,7 +6,7 @@
         <div class="bg-image" style='background-image: url("/static/img/bg_portfolio.0f57f7b.jpg");'><img src="../assets/img/photos/bg_portfolio.jpg" alt="" ></div>
         <div class="container-fluid container-custom">
             <h1>Portfolio</h1>
-            <p class="lead text-muted">Some of our works</p>
+            <p class="lead text-muted">Some Of Our Works</p>
         </div>
     </div>
 
@@ -28,7 +28,7 @@
                         <div class="title text-xs-center animated" data-animation="bounceInUp" data-animation-delay="700"  >
                             <a href="#" >
                                 <h5 class="mb-0">LOVE LETTER</h5>
-                                <p class="text-sm text-muted mb-0">A innovative fun app to sent anounymous love letters</p>
+                                <p class="text-sm text-muted mb-0">A Innovative fun app to sent anonymous Love Letters</p>
                             </a>
                         </div>
                     </div>
@@ -70,7 +70,7 @@
                         <div class="title text-xs-center animated" data-animation="bounceInUp" data-animation-delay="700">
                             <a href="#" >
                                 <h5 class="mb-0">Luttapi</h5>
-                                <p class="text-sm text-muted mb-0">A fun Game</p>
+                                <p class="text-sm text-muted mb-0">A Fun Game</p>
                             </a>
                         </div>
                     </div>
@@ -84,7 +84,7 @@
                         <div class="title text-xs-center animated" data-animation="bounceInUp" data-animation-delay="700">
                             <a href="#" >
                                 <h5 class="mb-0">LOST</h5>
-                                <p class="text-sm text-muted mb-0">An online treasure hunt game  designed in assocition with DRONA 17</p>
+                                <p class="text-sm text-muted mb-0">An Online Treasure Hunt game  designed in association with DRONA 17</p>
                             </a>
                         </div>
                     </div>
@@ -98,16 +98,14 @@
                         <div class="title text-xs-center animated" data-animation="bounceInUp" data-animation-delay="700">
                             <a href="#" >
                                 <h5 class="mb-0">Donate Now</h5>
-                                <p class="text-sm text-muted mb-0">A charity solution web app </p>
+                                <p class="text-sm text-muted mb-0">A Charity solution web app </p>
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        
+        </div>        
     </section>
-
 </div>
 </template>
 <script>

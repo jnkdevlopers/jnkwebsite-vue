@@ -5,7 +5,7 @@
         <div class="bg-image" style='background-image: url("/static/img/coaching_bg02.873889f.jpg";'><img src="../assets/img/photos/coaching_bg02.jpg"  alt=""></div>
         <div class="container-fluid container-custom">
             <h1>About Us</h1>
-            <p class="lead text-muted">Some informations about our business</p>
+            <p class="lead text-muted">Some Informations About Our Business</p>
         </div>
     </div>
     <!-- Section / About -->
@@ -23,9 +23,9 @@
             </div>
             <h4>Who we are?</h4>
             <!-- <p class="lead">JNKSOLUTIONS IS A CUSTOM SOFTWARE DEVELOPMENT COMPANY BASED ON CALICUT </p> -->
-            <p>Jnksolutions is a webdevelopment company based on calicut ,At jnk solution we build high perfomance scalable web apps and mobile apps , we also provide a uique rental website program which allow customers to 
-                create an online identity with minimum effort and reasonble price . Every member of jnk solution are in love with technolgies , we love coding , we love making apps 
-                and we also love to share our knowlege ,so we also provide tech talks and  free tutorial via youtube .  </p>
+            <p>Jnksolutions is a web development company based on Calicut,At Jnksolutions we build high performance scalable web apps and mobile apps, we also provide a unique rental website program which allow customers to 
+                create an online identity with minimum effort and reasonable price . Every member of Jnksolutions are in love with technologies , we love coding , we love making apps 
+                and we also love to share our knowledge ,so we also provide tech talks and  free tutorial via YouTube .  </p>
         </div>
     </section>
 
@@ -59,5 +59,18 @@ export default {
   -webkit-animation-duration: 0.8s;
   -webkit-animation-delay: 1s;
   -moz-animation-delay: 1s;
+}
+
+@media (min-width: 1281px) and (max-width: 1400px) {
+  #img_left,
+  #img_right {
+    width: 280px;
+  }
+  h4 {
+    font-size: 1.2rem;
+  }
+  #about p {
+    font-size: 0.92rem;
+  }
 }
 </style>

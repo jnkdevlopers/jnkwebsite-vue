@@ -5,12 +5,11 @@
         <div class="bg-image" style='background-image: url("/static/img/coaching_bg02.873889f.jpg";'><img src="../assets/img/photos/contactus.jpg"  alt=""></div>
         <div class="container-fluid container-custom">
             <h1>Contact Us</h1>
-            <p class="lead text-muted">Contact us for any queries </p>
+            <p class="lead text-muted">Contact Us For Any Queries </p>
         </div>
     </div>
     <!-- Section / About -->
      <section id="contact" class="section">
-
         <div class="container-fluid container-custom">
             <div class="row">
                 <div class="col-md-5">
@@ -47,15 +46,12 @@
                         <h4>Write to Us</h4>
                         <form action="#" id="contact-form" class="contact-form validate-form"
                             data-message-error="Opps... Something went wrong - please try again later"
-                            data-message-success="Thanks! You will recieve a responsve in 24h!"
-                            >
-                            <div class="form-group">
-                               
-                                <input name="email" type="email" placeholder='Enter Your Email Adress' class="form-control" required>
+                            data-message-success="Thanks! You will recieve a responsve in 24h!">
+                            <div class="form-group">                               
+                                <input name="email" type="email" placeholder='Enter Your Email Address' class="form-control" required>
                             </div>
-                            <div class="form-group">
-                                 
-                                <textarea name="message" id="messagex" cols="30" rows="5" class="form-control"  placeholder="Type Your Message"></textarea>
+                            <div class="form-group">                                 
+                                <textarea name="message" id="messagex" cols="30" rows="5" class="form-control"  placeholder="Type Your Message" required></textarea>
                             </div>
                             <div class="form-group form-submit">
                                 <button type="submit" class="btn btn-submit">
@@ -68,9 +64,7 @@
                 </div>
             </div>
         </div>
-
     </section>
-
 </div>
 </template>
 <script>
@@ -83,7 +77,6 @@ export default {
     Skill.Basic.animations();
     $(".icnActive").removeClass("icnActive");
     $("#icn_contact").addClass("icnActive");
-
     $("#img_left").addClass("bounceInDown visible");
     $("#img_right").addClass("slideInRight visible");
   }

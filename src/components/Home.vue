@@ -18,17 +18,14 @@
             <!-- Content -->
             <div class="v-center pt-90 pb-90">
                 <h1 class="display-3">Lets Make It Awesome!</h1>
-                <p class="lead text-muted">Web development | Android development | Tutorials <br> Games | Computer Assembling | Tech Talks <br>Online Support</p>
+                <p class="lead">Web Development | Android Development | Tutorials <br> Games | Computer Assembling | Tech Talks <br>Online Support</p>
                 <div class="btn-group" data-local-scroll>
                   <router-link to="/aboutus"  class="btn btn-primary btn-lg">About us</router-link>
                   <router-link to="/aboutus" class="btn btn-secondary btn-lg">Our services</router-link>
                 </div>
             </div>
-
         </div>
-
     </section>
-
 </div>
 </template>
 <script>
@@ -47,7 +44,7 @@ export default {
   },
   methods: {
     animateimg: function() {
-      $("#img_top").removeClass("bounceInDown ");
+      $("#img_top").removeClass("bounceInDown");
       $("#img_top").addClass("jello");
     }
   }
@@ -71,5 +68,22 @@ export default {
   -webkit-animation-duration: 0.5s;
   -webkit-animation-delay: 1.2s;
   -moz-animation-delay: 1.2s;
+}
+
+@media (min-width: 1281px) and (max-width: 1400px) {
+  #img_left {
+    width: 265px;
+  }
+  #img_top {
+    width: 280px;
+    height: 300px;
+  }
+  #img_right {
+    width: 280px;
+    height: 300px;
+  }
+  .container {
+    width: 40%;
+  }
 }
 </style>
