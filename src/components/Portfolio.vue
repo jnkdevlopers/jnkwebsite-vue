@@ -116,6 +116,7 @@ export default {
   },
   mounted: function() {
     Skill.Basic.animations();
+    window.scrollTo(0,0)
     $(".icnActive").removeClass("icnActive")
     $("#icn_portfolio").addClass("icnActive")
     $("#img_left").addClass("slideInLeft visible")

@@ -75,6 +75,7 @@ export default {
   },
   mounted: function() {
     Skill.Basic.animations();
+    window.scrollTo(0,0)
     $(".icnActive").removeClass("icnActive");
     $("#icn_contact").addClass("icnActive");
     $("#img_left").addClass("bounceInDown visible");

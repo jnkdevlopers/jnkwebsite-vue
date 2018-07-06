@@ -39,6 +39,7 @@ export default {
   },
   mounted: function() {
     Skill.Basic.animations();
+    window.scrollTo(0,0)
     $("#img_left").addClass("bounceInDown visible");
     $("#img_right").addClass("slideInRight visible");
     $(".icnActive").removeClass("icnActive");

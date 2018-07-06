@@ -223,6 +223,7 @@ export default {
   },
   mounted: function() {
     Skill.Basic.animations();
+    window.scrollTo(0, 0);
     $(".active").removeClass("active");
     $("#nav_services").addClass("active");
     $("#img_left").addClass("slideInLeft visible");
@@ -234,7 +235,6 @@ export default {
         return;
       }
       $(this).removeClass("bounceInDown");
-
       $(this).addClass("bounce");
       $(".icnActive").removeClass("icnActive");
       $("#icn_service").addClass("icnActive");
@@ -247,12 +247,8 @@ export default {
   }
 };
 </script>
-
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-#img_left {
-}
-
 #img_right {
   -webkit-animation-duration: 0.5s;
   -webkit-animation-delay: 0.4s;

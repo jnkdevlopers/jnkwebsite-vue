@@ -80,7 +80,8 @@ export default {
     });
     //Reset mobile-nav-toggle while cliking side menu icons
     $(".mobile-nav-toggle-reset").on("click", function() {
-      $("#mobile-nav-toggle").removeClass("open");
+      $("#mobile-nav-toggle").removeClass("open")
+      window.scrollTo(0,0)
     });
   }
 };
