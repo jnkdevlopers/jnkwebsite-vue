@@ -204,7 +204,7 @@
                                 <li>24/7 Support</li>
                                 <li>*Including domain name & One year Hosting</li>
                                 <li>&nbsp;</li>
-                                <li>&nbsp;</li>
+                                
                             </ul>
                         </div>
                         <button class="btn-bottom btn-dark">Buy it</button>

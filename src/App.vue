@@ -56,7 +56,7 @@
                         <span class="text-muted mr-10">Follow Us</span>
                         <a href="https://www.facebook.com/jnksolutions" target="_blank" class="icon icon-circle icon-hover icon-secondary icon-sm"><i class="ti-facebook"></i></a>
                         <a href="#" class="icon icon-circle icon-hover icon-secondary icon-sm"><i class="ti-twitter-alt"></i></a>
-                        <a href="#" class="icon icon-circle icon-hover icon-secondary icon-sm"><i class="ti-google"></i></a>
+                        <a href="https://twitter.com/jnksolutions1" class="icon icon-circle icon-hover icon-secondary icon-sm"><i class="ti-google"></i></a>
                     </div>
                 </div>
             </div>

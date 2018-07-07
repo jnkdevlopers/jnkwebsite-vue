@@ -3,10 +3,16 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import axios from 'axios'
+import VueAxios from 'vue-axios'
+import VueSweetalert2 from 'vue-sweetalert2'
+
 // var Isotope = require('isotope-layout')
 import VAnimateCss from 'v-animate-css'
 Vue.config.productionTip = false
 Vue.use(VAnimateCss)
+Vue.use(VueAxios, axios)
+Vue.use(VueSweetalert2)
 
 /* eslint-disable no-new */
 new Vue({

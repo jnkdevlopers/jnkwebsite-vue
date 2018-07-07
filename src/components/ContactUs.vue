@@ -2,7 +2,7 @@
     <div id="content">
     <!-- Page Title -->
     <div class="page-title bg-dark dark">
-        <div class="bg-image" style='background-image: url("/static/img/coaching_bg02.873889f.jpg";'><img src="../assets/img/photos/contactus.jpg"  alt=""></div>
+        <div class="bg-image" style='background-image: url("/static/img/contactus.d3af529.jpg";'><img src="../assets/img/photos/contactus.jpg"  alt=""></div>
         <div class="container-fluid container-custom">
             <h1>Contact Us</h1>
             <p class="lead text-muted">Contact Us For Any Queries </p>
@@ -44,22 +44,24 @@
                 <div class="col-md-7">
                     <div class="box right">
                         <h4>Write to Us</h4>
-                        <form action="#" id="contact-form" class="contact-form validate-form"
-                            data-message-error="Opps... Something went wrong - please try again later"
-                            data-message-success="Thanks! You will recieve a responsve in 24h!">
+                        <div   id="contact" class="contact-form">
+                          <div v-if="error!=''" class="alert alert-dismissible alert-danger">
+                              <li id='email_error'  >{{error}}</li>
+                            </div>
                             <div class="form-group">                               
-                                <input name="email" type="email" placeholder='Enter Your Email Address' class="form-control" required>
+                                <input id='txtEmail' name="email" type="email" placeholder='Enter Your Email Address' class="form-control" required>
+                              
                             </div>
                             <div class="form-group">                                 
-                                <textarea name="message" id="messagex" cols="30" rows="5" class="form-control"  placeholder="Type Your Message" required></textarea>
+                                <textarea   name="message" id="txtMessage" cols="30" rows="5" class="form-control"  placeholder="Type Your Message" required></textarea>
                             </div>
                             <div class="form-group form-submit">
-                                <button type="submit" class="btn btn-submit">
+                                <button @click="sendEmail" class="btn btn-submit">
                                     <span>Send message!</span>
                                     <svg class="loader loader-white" width="32px" height="32px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><circle class="circle" fill="none" stroke-width="2" stroke-linecap="round" cx="16" cy="16" r="14"></circle></svg>
                                 </button>
                             </div>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -71,7 +73,9 @@
 export default {
   name: "AboutUs",
   data() {
-    return {};
+    return {
+        error:''
+    };
   },
   mounted: function() {
     Skill.Basic.animations();
@@ -80,6 +84,31 @@ export default {
     $("#icn_contact").addClass("icnActive");
     $("#img_left").addClass("bounceInDown visible");
     $("#img_right").addClass("slideInRight visible");
+  },
+  methods:{
+     
+      sendEmail:function (){
+          this.error=''
+          let strEmailId=$('#txtEmail').val();
+          
+          if(strEmailId =='' ||$('#txtMessage').val()=='' ){
+              this.error='All fields are mandatory'
+              return
+          }
+          var filter = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+        if (!filter.test(strEmailId)) {
+           this.error='Please enter a valid email id'
+           return;
+        }
+     
+         let  arrDetail ={
+             'email':strEmailId,
+             'content':$('#txtMessage').val()
+         }
+         this.axios.post('http://www.jnksolutions.in/sendmail/contact-form.php',JSON.stringify(arrDetail)).then((response) => {
+         this.$swal('Thank you we will contact you shortly');
+        })
+      }
   }
 };
 </script>

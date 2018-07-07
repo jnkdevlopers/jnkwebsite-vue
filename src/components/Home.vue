@@ -84,7 +84,7 @@ export default {
     margin-right: 27%;
   }
   .display-3 {
-    font-size: 2.6rem;
+    font-size: 3.6rem;
   }
   .lead {
     font-size: 1.25rem;

@@ -5,6 +5,7 @@ import Home from '@/components/Home'
 import Services from '@/components/Services'
 import Portfolio from '@/components/Portfolio'
 import Contact from '@/components/ContactUs'
+import PageNotFound from '@/components/PageNotFound'
 
 Vue.use(Router)
 
@@ -34,6 +35,12 @@ export default new Router({
       path: '/contactus',
       name: 'contact',
       component: Contact
+    },
+    {
+      path: '*',
+      name: 'contact',
+      component: PageNotFound
     }
+    
   ]
 })
