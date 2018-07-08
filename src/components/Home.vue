@@ -17,7 +17,7 @@
                 <h1 class="display-3  ">Lets Make It Awesome!</h1>
                 <p class="lead">Web Development | Android Development | Tutorials <br> Games | Computer Assembling | Tech Talks <br>Online Support</p>
                 <div class="btn-group" data-local-scroll>
-                  <router-link to="/aboutus" class="btn btn-primary btn-lg">About us</router-link>
+                  <router-link to="/aboutus" id='lnkAbout' class="btn btn-primary btn-lg">About us</router-link>
                   <router-link to="/services" class="btn btn-secondary btn-lg">Our services</router-link>
                 </div>
             </div>
@@ -39,6 +39,7 @@ export default {
     $("#img_top").addClass("bounceInDown visible");
     $(".icnActive").removeClass("icnActive");
     $("#icn_home").addClass("icnActive");
+      
   },
   methods: {
     animateimg: function() {
@@ -47,6 +48,8 @@ export default {
     }
   }
 };
+
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -94,5 +97,9 @@ export default {
     height: 51.38px;
     padding: 1.3rem 1.2rem;
   }
+
+.btn-primary:before {
+    background-color: red;
+}
 }
 </style>

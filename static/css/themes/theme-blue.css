@@ -3623,10 +3623,12 @@ html.locked-scrolling body {
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:focus:active {
   border-color: transparent;
   color: #4184c1;
+ 
 }
 
 .btn-primary:before {
   background-color: #fff;
+  opacity: 5;
 }
 
 .btn-secondary {

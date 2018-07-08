@@ -105,9 +105,13 @@ export default {
              'email':strEmailId,
              'content':$('#txtMessage').val()
          }
-         this.axios.post('http://www.jnksolutions.in/sendmail/contact-form.php',JSON.stringify(arrDetail)).then((response) => {
-         this.$swal('Thank you we will contact you shortly');
+          
+        this.axios.post('/sendmail/contact-form.php',JSON.stringify(arrDetail)).then((response) => {
+            $('#txtEmail').val('')
+            $('#txtMessage').val('')
+            this.$swal('Thank you we will contact you shortly');
         })
+        
       }
   }
 };

@@ -22,7 +22,7 @@
                     <div class="feature feature-1 animated" data-animation="fadeIn">
                             <img src="../assets/img/items/coffee.png" class="animated" data-animation="bounceInDown" data-animation-delay="500" id='webdev' alt="">
                         <h4 class="mb-0">Web Development</h4>
-                        <span class="">We can give your businesses new identity by providing you with awesome web apps and websites</span>
+                        <span class="">We can give your businesses a new identity by providing you with awesome web apps and websites</span>
                     </div>
                 </div>
                 <div class="col-sm-4">
@@ -38,7 +38,7 @@
                         <div class="feature feature-1 animated" data-animation="fadeIn" data-animation-delay="300">
                             <img src="../assets/img/items/desktop.png" class="animated" data-animation="bounceInDown" data-animation-delay="500" alt="">
                             <h4 class="mb-0">Desktop Application</h4>
-                            <span class="">We build high perfomance desktop application </span>
+                            <span class="">We build high perfomance desktop applications </span>
                         </div>
                     </div>
             </div>
@@ -58,7 +58,7 @@
                     <div class="feature feature-1 animated" data-animation="fadeIn" data-animation-delay="300">
                         <img src="../assets/img/items/tuts.png" class="animated" data-animation="bounceInDown" data-animation-delay="500" alt="">
                         <h4 class="mb-0">Tutorials</h4>
-                        <span class="">We love sharing our knowledge . You can visit our YouTube channel geeks tuts for tutorials</span>
+                        <span class="">We love sharing our knowledge . You can visit our YouTube channel geeks tuts for various tutorials</span>
                     </div>
                 </div>
                 <div class="col-sm-4">
@@ -66,7 +66,7 @@
                         <div class="feature feature-1 animated" data-animation="fadeIn" data-animation-delay="300">
                                 <img src="../assets/img/items/tech_talks.png" class="animated" data-animation="bounceInDown"  data-animation-delay="500" alt="">
                             <h4 class="mb-0">Tech Talks & Reviews</h4>
-                            <span class="">We are tech addict , we love to speak tech .You can visit our YouTube channels geeks talks for lates tech talks and reviews</span>
+                            <span class="">We are tech addict , we love to speak tech .You can visit our YouTube channels geeks talks for latest tech talks and reviews</span>
                         </div>
                     </div>
             </div>
@@ -77,7 +77,7 @@
                     <div class="feature feature-1 animated" data-animation="fadeIn">
                         <img src="../assets/img/items/games.png" class="animated" data-animation="bounceInDown" data-animation-delay="500" alt="">                      
                         <h4 class="mb-0">Games & Fun Apps</h4>
-                        <span class="">We provide college project development with complete assistance and support at very reasonable price </span>
+                        <span class="">Feeling bored ? checkout our games & fun apps</span>
                     </div>
                 </div>
                 <div class="col-sm-4">
@@ -93,7 +93,7 @@
                     <div class="feature feature-1 animated" data-animation="fadeIn" data-animation-delay="300">
                             <img src="../assets/img/items/online_supp.png" class="animated" data-animation="bounceInDown" data-animation-delay="500" alt="">
                         <h4 class="mb-0">Online Support & Guidance</h4>
-                        <span class="">We are tech addict , we love to speak tech .you can visit our YouTube channels geeks talks for lates tech talks and reviews</span>
+                        <span class="">We gave complete online support and guidance for all our cusotmers for any techincal needs</span>
                     </div>
                 </div>
             </div>
@@ -199,12 +199,11 @@
                                 <li>Invocing</li>
                                 <li>Multiple Payment option</li>
                                 <li><strong>5</strong> Buisness Email id</li>
-                                <li>Depreciation of fixed assets</li>
+                                <li>Store management</li>
                                 <li>Free Consultations</li>
                                 <li>24/7 Support</li>
                                 <li>*Including domain name & One year Hosting</li>
-                                <li>&nbsp;</li>
-                                
+                                <li>&nbsp;</li>           
                             </ul>
                         </div>
                         <button class="btn-bottom btn-dark">Buy it</button>
