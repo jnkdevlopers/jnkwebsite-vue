@@ -71,7 +71,7 @@ export default {
   -moz-animation-delay: 1.2s;
 }
 
-@media (min-width: 1281px) and (max-width: 1400px) {
+@media (min-width: 1300px) and (max-width: 1700px) {
   #img_left {
     width: 290px;
     left: 12%;
@@ -97,9 +97,33 @@ export default {
     height: 51.38px;
     padding: 1.3rem 1.2rem;
   }
-
-.btn-primary:before {
-    background-color: red;
 }
+
+@media (min-width: 1000px) and (max-width: 1299px) {
+#img_left {
+    width: 250px;
+    left: 20%;
+  }
+  #img_top {
+    width: 280px;
+    height: 300px;
+    margin-right: 31%;
+  }
+  #img_right {
+    width: 250px;
+    height: 270px;
+    margin-right: 37%;
+  }
+  .display-3 {
+    font-size: 3rem;
+  }
+  .lead {
+    font-size: 1.15rem;
+  }
+  .btn {
+    width: 100.5px;
+    height: 45.38px;
+    padding: 1.1rem .5rem;
+  }
 }
 </style>

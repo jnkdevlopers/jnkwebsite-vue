@@ -42,7 +42,7 @@
                         <div class="title text-xs-center animated" data-animation="bounceInUp" data-animation-delay="700">
                             <a href="#" >
                                 <h5 class="mb-0">MRA ONLINE</h5>
-                                <p class="text-sm text-muted mb-0">Official Website of Muthappan Kavu Residence Association</p>
+                                <p class="text-sm text-muted mb-0">Official website of Muthappan Kavu Residence Association</p>
                             </a>
                         </div>
                     </div>
@@ -56,7 +56,7 @@
                         <div class="title text-xs-center animated" data-animation="bounceInUp" data-animation-delay="700">
                             <a href="#" >
                                 <h5 class="mb-0">SHOPWISE</h5>
-                                <p class="text-sm text-muted mb-0">An app design to get latest offer and deals around the city</p>
+                                <p class="text-sm text-muted mb-0">An app design to get latest offers and deals around the city</p>
                             </a>
                         </div>
                     </div>
@@ -70,7 +70,7 @@
                         <div class="title text-xs-center animated" data-animation="bounceInUp" data-animation-delay="700">
                             <a href="#" >
                                 <h5 class="mb-0">Luttapi</h5>
-                                <p class="text-sm text-muted mb-0">A Fun Game</p>
+                                <p class="text-sm text-muted mb-0">A fun Game</p>
                             </a>
                         </div>
                     </div>
@@ -84,7 +84,7 @@
                         <div class="title text-xs-center animated" data-animation="bounceInUp" data-animation-delay="700">
                             <a href="#" >
                                 <h5 class="mb-0">LOST</h5>
-                                <p class="text-sm text-muted mb-0">An Online Treasure Hunt game  designed in association with DRONA 17</p>
+                                <p class="text-sm text-muted mb-0">An Online treasure hunt game  designed in association with DRONA 17</p>
                             </a>
                         </div>
                     </div>

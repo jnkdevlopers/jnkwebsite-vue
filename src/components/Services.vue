@@ -30,7 +30,7 @@
                     <div class="feature feature-1 animated" data-animation="fadeIn" data-animation-delay="300">
                             <img src="../assets/img/items/mobile_dev.png" class="animated" data-animation="bounceInDown" alt="" data-animation-delay="500" >
                         <h4 class="mb-0">Mobile App Development</h4>
-                        <span class="">Planing to build a mobile app for your business ? We can help you</span>
+                        <span class="">Planing to build a mobile app for your business? We can help you</span>
                     </div>
                 </div>
                 <div class="col-sm-4">
@@ -58,7 +58,7 @@
                     <div class="feature feature-1 animated" data-animation="fadeIn" data-animation-delay="300">
                         <img src="../assets/img/items/tuts.png" class="animated" data-animation="bounceInDown" data-animation-delay="500" alt="">
                         <h4 class="mb-0">Tutorials</h4>
-                        <span class="">We love sharing our knowledge . You can visit our YouTube channel geeks tuts for various tutorials</span>
+                        <span class="">We love sharing our knowledge. You can visit our YouTube channel geeks tuts for various tutorials</span>
                     </div>
                 </div>
                 <div class="col-sm-4">
@@ -66,7 +66,7 @@
                         <div class="feature feature-1 animated" data-animation="fadeIn" data-animation-delay="300">
                                 <img src="../assets/img/items/tech_talks.png" class="animated" data-animation="bounceInDown"  data-animation-delay="500" alt="">
                             <h4 class="mb-0">Tech Talks & Reviews</h4>
-                            <span class="">We are tech addict , we love to speak tech .You can visit our YouTube channels geeks talks for latest tech talks and reviews</span>
+                            <span class="">We are tech addict, we love to speak tech. You can visit our YouTube channel geeks talks for latest tech talks and reviews</span>
                         </div>
                     </div>
             </div>
@@ -77,7 +77,7 @@
                     <div class="feature feature-1 animated" data-animation="fadeIn">
                         <img src="../assets/img/items/games.png" class="animated" data-animation="bounceInDown" data-animation-delay="500" alt="">                      
                         <h4 class="mb-0">Games & Fun Apps</h4>
-                        <span class="">Feeling bored ? checkout our games & fun apps</span>
+                        <span class="">Feeling bored? checkout our games & fun apps</span>
                     </div>
                 </div>
                 <div class="col-sm-4">
@@ -85,7 +85,7 @@
                     <div class="feature feature-1 animated" data-animation="fadeIn" data-animation-delay="300">
                         <img src="../assets/img/items/Computer.png" class="animated" data-animation="bounceInDown" data-animation-delay="500" alt="">
                         <h4 class="mb-0">Computer Assembling & Setting Up</h4>
-                        <span class="">We know every buisness is different so that the technology needed , we help you choose the right proudcts and machine and will setup all the it infrastructure you needed at best rates</span>
+                        <span class="">We know every buisness is different so that the technology needed, we help you choose the right proudcts and machine and will setup all the it infrastructure you needed at best rates</span>
                     </div>
                 </div>
                 <div class="col-sm-4">
@@ -93,7 +93,7 @@
                     <div class="feature feature-1 animated" data-animation="fadeIn" data-animation-delay="300">
                             <img src="../assets/img/items/online_supp.png" class="animated" data-animation="bounceInDown" data-animation-delay="500" alt="">
                         <h4 class="mb-0">Online Support & Guidance</h4>
-                        <span class="">We gave complete online support and guidance for all our cusotmers for any techincal needs</span>
+                        <span class="">We gave complete online support and guidance for all our customers for any techincal needs</span>
                     </div>
                 </div>
             </div>
@@ -132,18 +132,18 @@
                             <span class="value text-primary">355</span>
                             <span class="caption text-muted">/- per month</span>
                         </div>
-                        <div class="content">
+                        <div class="content media_class_rental">
                             <ul class="list-unstyled mb-0">
-                                <li>Landing Page </li>
-                                <li>2 Dynamic Page as per requirement</li>
+                                <li>Landing page </li>
+                                <li>2 Dynamic page as per requirement</li>
                                 <li>Gallery</li>
-                                <li>Contact us Page</li>
+                                <li>Contact us page</li>
                                 <li>CMS (Coming Soon)</li>
                                 <li>Payment Integration (Coming Soon)</li>
                                 <li><strong>1</strong> Buisness Email id</li>
-                                <li>Free Consultations</li>
-                                <li>*Including domain name & One year Hosting</li>
-                                <li>*One time Setup charge ₹ 1500 /- Extra</li>
+                                <li>Free consultations</li>
+                                <li>*Including domain name & One year hosting</li>
+                                <li>*One time setup charge ₹ 1500 /- Extra</li>
                                 
                             </ul>
                         </div>
@@ -157,7 +157,7 @@
                             <h4 class="title">Get You Online Package</h4>
                             <span class="caption text-muted">Dedicated for Small Businesses</span>
                         </div>
-                        <div class="price">
+                        <div class="price asd">
                             <span class="currency text-primary">₹</span>
                             <span class="value text-primary">15500</span>
                             <span class="caption text-muted">/-</span>
@@ -167,14 +167,14 @@
                                 <li>Landing page</li>
                                 <li>About us</li>
                                 <li>Gallery </li>
-                                <li>2 Dynamic Page as per Requirment</li>
-                                <li>Contact us Page</li>
-                                <li>CMS (You can change and edit your Contents)</li>
+                                <li>2 Dynamic page as per requirment</li>
+                                <li>Contact us page</li>
+                                <li>CMS (You can change and edit your contents)</li>
                                 <li><strong>1</strong> Buisness Email id</li>
                                 <li>Visitng Card design</li>
                                 <li>Facebook page modification </li>
                                 <li>Free Consultations</li>      
-                                <li>*Including domain name & One year Hosting</li>        
+                                <li>*Including domain name & One year hosting</li>        
                             </ul>
                         </div>
                         <button class="btn-bottom btn-primary">Buy it</button>
@@ -192,18 +192,18 @@
                             <span class="value text-primary">25500</span>
                             <span class="caption text-muted">/-</span>
                         </div>
-                        <div class="content">
+                        <div class="content media_class">
                             <ul class="list-unstyled mb-0">
-                                <li>Category wise Sorting</li>
-                                <li>Complete Backend to manage sales</li>
-                                <li>Invocing</li>
-                                <li>Multiple Payment option</li>
+                                <li>Category wise sorting</li>
+                                <li>Complete backend to manage sales</li>
+                                <li>Invoicing</li>
+                                <li>Multiple payment option</li>
                                 <li><strong>5</strong> Buisness Email id</li>
                                 <li>Store management</li>
-                                <li>Free Consultations</li>
+                                <li>Free consultations</li>
                                 <li>24/7 Support</li>
-                                <li>*Including domain name & One year Hosting</li>
-                                <li>&nbsp;</li>           
+                                <li>*Including domain name & One year hosting</li>
+                                <li>&nbsp;</li>
                             </ul>
                         </div>
                         <button class="btn-bottom btn-dark">Buy it</button>
@@ -257,5 +257,18 @@ export default {
   -webkit-animation-duration: 0.8s;
   -webkit-animation-delay: 0.7s;
   -moz-animation-delay: 0.7s;
+}
+@media (min-width: 1300px) and (max-width: 1700px) {
+  .media_class {
+    height: 358px;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1299px) {
+  .media_class {
+    height: 402px;
+  }
+  .media_class_rental {
+    height: 443px;
+  }
 }
 </style>

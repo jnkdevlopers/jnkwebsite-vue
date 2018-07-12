@@ -23,9 +23,9 @@
             </div>
             <h4>Who we are?</h4>
             <!-- <p class="lead">JNKSOLUTIONS IS A CUSTOM SOFTWARE DEVELOPMENT COMPANY BASED ON CALICUT </p> -->
-            <p>Jnksolutions is a web development company based on Calicut,At Jnksolutions we build high performance scalable web apps and mobile apps, we also provide a unique rental website program which allow customers to 
-                create an online identity with minimum effort and reasonable price . Every member of Jnksolutions are in love with technologies , we love coding , we love making apps 
-                and we also love to share our knowledge ,so we also provide tech talks and  free tutorial via YouTube .  </p>
+            <p>Jnksolutions is a web development company based on Calicut. At Jnksolutions we build high performance scalable web apps and mobile apps, we also provide a unique rental website program which allow customers to 
+                create an online identity with minimum effort and reasonable price. Every member of Jnksolutions are in love with technologies, we love coding, we love making apps 
+                and we also love to share our knowledge, so we also provide tech talks and  free tutorial via YouTube.</p>
         </div>
     </section>
 
@@ -62,10 +62,22 @@ export default {
   -moz-animation-delay: 1s;
 }
 
-@media (min-width: 1281px) and (max-width: 1400px) {
+@media (min-width: 1300px) and (max-width: 1700px) {
   #img_left,
   #img_right {
     width: 280px;
+  }
+  h4 {
+    font-size: 1.2rem;
+  }
+  #about p {
+    font-size: 0.92rem;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1299px) {
+  #img_left,
+  #img_right {
+    width: 210px;
   }
   h4 {
     font-size: 1.2rem;

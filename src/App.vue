@@ -40,7 +40,7 @@
                 <div class="module-group">
                     <div class="module copyright">
                         <a href="index.html" class="logo mr-15"><img src="assets/img/logo-dark.svg" height="80" alt=""></a>
-                        <span class="text-muted">Copyright Skill 2018 © <a href="http://www.jnksolutions.in/" target="blank">JNKSOLUTIONS</a>.</span>
+                        <span class="text-muted" style="text-transform:none;">Copyright Skill 2018 © <a href="http://www.jnksolutions.in/" target="blank">JNKSOLUTIONS</a>.</span>
                     </div>
                 </div>
             </div>
@@ -55,8 +55,8 @@
                     <div class="module">
                         <span class="text-muted mr-10">Follow Us</span>
                         <a href="https://www.facebook.com/jnksolutions" target="_blank" class="icon icon-circle icon-hover icon-secondary icon-sm"><i class="ti-facebook"></i></a>
-                        <a href="#" class="icon icon-circle icon-hover icon-secondary icon-sm"><i class="ti-twitter-alt"></i></a>
-                        <a href="https://twitter.com/jnksolutions1" class="icon icon-circle icon-hover icon-secondary icon-sm"><i class="ti-google"></i></a>
+                        <a href="https://twitter.com/jnksolutions1" target="_blank" class="icon icon-circle icon-hover icon-secondary icon-sm"><i class="ti-twitter-alt"></i></a>
+                        <a href="https://plus.google.com/u/1/102273592174885956919" target="_blank" class="icon icon-circle icon-hover icon-secondary icon-sm"><i class="ti-google"></i></a>
                     </div>
                 </div>
             </div>
